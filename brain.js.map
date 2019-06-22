@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "brain.js",
+  "sourceRoot": "",
+  "sources": [
+    "brain.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,MAAA,EAAA,IAAA,EAAA,GAAA,EAAA,KAAA,EAAA;;EAAA,KAAA,GAAQ;;EACR,MAAA,GAAS;;EAET,GAAA,GAAM,EAAE,CAAC,MAAH,CAAU,aAAV,CACJ,CAAC,MADG,CACI,KADJ,CAEJ,CAAC,IAFG,CAEE,OAFF,EAEW,KAFX,CAGJ,CAAC,IAHG,CAGE,QAHF,EAGY,MAHZ;;EAKN,GAAA,GAAM,EAAE,CAAC,GAAG,CAAC,MAAP,CAAA;;EACN,IAAA,GAAO,EAAE,CAAC,GAAG,CAAC,IAAP,CAAA,CAAa,CAAC,UAAd,CAAyB,GAAzB;;EAEP,GAAG,CAAC,MAAJ,CAAW,CAAC,GAAD,EAAM,EAAN,CAAX;;EACA,GAAG,CAAC,SAAJ,CAAc,CAAC,GAAD,EAAM,GAAN,CAAd;;EACA,GAAG,CAAC,SAAJ,CAAc,CAAC,IAAD,EAAO,IAAP,CAAd;;EACA,GAAG,CAAC,KAAJ,CAAU,IAAV;;EAEA,EAAE,CAAC,IAAH,CAAQ,gBAAR,EAA0B,QAAA,CAAC,IAAD,CAAA;IACxB,GAAG,CAAC,SAAJ,CAAc,MAAd,CAAqB,CAAC,IAAtB,CAA2B,IAAI,CAAC,QAAhC,CACE,CAAC,KADH,CAAA,CAEE,CAAC,MAFH,CAEU,MAFV,CAGE,CAAC,IAHH,CAGQ,GAHR,EAGa,IAHb,CAIE,CAAC,KAJH,CAIS,MAJT,EAIiB,QAAA,CAAA,CAAA;aAAE;IAAF,CAJjB,CAKE,CAAC,EALH,CAKM,WALN,EAKmB,QAAA,CAAC,CAAD,CAAA;MACb,EAAE,CAAC,MAAH,CAAU,IAAV,CAAe,CAAC,KAAhB,CAAsB,MAAtB,EAA8B,SAA9B;IADa,CALnB,CAQE,CAAC,EARH,CAQM,UARN,EAQkB,QAAA,CAAC,CAAD,CAAA;MACZ,EAAE,CAAC,MAAH,CAAU,IAAV,CAAe,CAAC,KAAhB,CAAsB,MAAtB,EAA8B,SAA9B;IADY,CARlB;EADwB,CAA1B;AAhBA",
+  "sourcesContent": [
+    "width = 960\nheight = 700\n\nsvg = d3.select('#map-holder')\n  .append('svg')\n  .attr('width', width)\n  .attr('height', height)\n\nxym = d3.geo.albers()\npath = d3.geo.path().projection(xym)\n\nxym.origin([134, 25])\nxym.translate([350, 745])\nxym.parallels([24.6, 43.6])\nxym.scale(1980)\n\nd3.json 'nihon.geo.json', (data) ->\n  svg.selectAll('path').data(data.features)\n    .enter()\n    .append('path')\n    .attr('d', path)\n    .style('fill', ->'#44aaee')\n    .on('mouseover', (e) ->\n        d3.select(this).style('fill', '#5522aa')\n        return)\n    .on 'mouseout', (e) ->\n        d3.select(this).style('fill', '#44aaee')\n        return\n  return\n"
+  ]
+}
