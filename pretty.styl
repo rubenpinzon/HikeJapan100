@@ -1,31 +1,32 @@
 body
   margin 0
-  background-color #78d0e4
   font-family 'Yanone Kaffeesatz', sans-serif
   font-weight 200
   font-size 17px
+//
+div
+  h1
+    text-align center
 
-#map-holder
-  width 100vw
-  height 100vh
+#map-ctn
+  width 960px
+  height 700px
+  margin-right auto
+  margin-left auto
+  overflow hidden
+
+.background
+  stroke #2A2C39
+  stroke-width 1.5px
+  fill none
 
 svg
-  rect
-    fill #fafff8
+  margin-left auto
+  margin-right auto
 
-.country
-  fill #d0d0d0
-  stroke #2A2C39
-  stroke-width 1
 
-.country-on
-  fill #4B5358
-
-.countryLabel
-  display none
-
-.countryName
-  fill #FFFAFF
-
-.countryLabelBg
-  fill #30BCED
+.prefecture
+  fill none
+  stroke #fff
+  stroke-linecap round
+  stroke-linejoin round
