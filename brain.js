@@ -35,6 +35,7 @@
       reset();
       return;
     }
+    console.log(d.properties.nam, d.properties.nam_ja);
     active.classed('active', false);
     active = d3.select(this).classed('active', true);
     bounds = path.bounds(d);

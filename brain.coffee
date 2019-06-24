@@ -50,7 +50,7 @@ clicked = (d)->
   if active.node() == this
     reset()
     return
-
+  console.log d.properties.nam, d.properties.nam_ja
   active.classed('active', false)
   active = d3.select(this).classed('active', true)
 

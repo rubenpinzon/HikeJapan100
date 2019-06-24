@@ -1,0 +1,23 @@
+{
+  "prefecture": "Hokkaido",
+  "mountains": [
+    {
+      "name": "Rishiri",
+      "N": "45゜10'42.90\"",
+      "E": "141゜14'42.60\"",
+      "elevation": "1719 m"
+    },
+    {
+      "name": "Rausu-dake",
+      "N": "44゜04'32.80\"",
+      "E": "145゜07'20.40\"",
+      "elevation": "1661m"
+    },
+    {
+      "name": "Rausu-dake",
+      "N": "44゜04'32.80\"",
+      "E": "145゜07'20.40\"",
+      "elevation": "1661m"
+    }
+  ]
+}
