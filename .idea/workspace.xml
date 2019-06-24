@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ad0fdd-f40f-424f-a7e7-d9e0e87d375c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hyakumeisan.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/brain.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain.js" beforeDir="false" afterPath="$PROJECT_DIR$/brain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/brain.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pretty.css" beforeDir="false" afterPath="$PROJECT_DIR$/pretty.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pretty.styl" beforeDir="false" afterPath="$PROJECT_DIR$/pretty.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hyakumeisan.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1122">
               <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.ignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -79,11 +81,11 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/nihon.geo.json" />
-        <option value="$PROJECT_DIR$/.ignore" />
         <option value="$PROJECT_DIR$/pretty.styl" />
         <option value="$PROJECT_DIR$/brain.coffee" />
         <option value="$PROJECT_DIR$/index.pug" />
         <option value="$PROJECT_DIR$/hyakumeisan.json" />
+        <option value="$PROJECT_DIR$/.ignore" />
       </list>
     </option>
   </component>
@@ -155,23 +157,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561212021834</updated>
-      <workItem from="1561212024791" duration="15652000" />
+      <workItem from="1561212024791" duration="17107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15652000" />
+    <option name="totallyTimeSpent" value="17107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="35" width="3734" height="2125" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32974717" />
-      <window_info anchor="bottom" id="Terminal" weight="0.30876815" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30876815" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -235,13 +237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pretty.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -267,6 +262,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
